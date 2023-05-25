@@ -3,9 +3,9 @@
 stack_t *head = NULL;
 
 /**
- * main - Monty main program
- * @argn: Argument count
- * @args: Argument
+ * main - Monty main function
+ * @argc: Argument count
+ * @args: Argument params
  *
  * Return: Always 0
  */

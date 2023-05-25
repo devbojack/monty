@@ -3,7 +3,7 @@
 /**
  * pop - Pop stack element
  * @stack: Stack header
- * @line_number: Line error
+ * @line: Line error
  *
  * Return: void
  */
@@ -12,9 +12,9 @@ void pop(stack_t **stack, unsigned int line)
 	stack_t *current = *stack, *x = NULL;
 
 	if (*stack == NULL)
-    {
-        handle_error(ERR_POP_USG, NULL, line, NULL);
-    }
+	{
+		handle_error(ERR_POP_USG, NULL, line, NULL);
+	}
 
 	x = current;
 

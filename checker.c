@@ -23,8 +23,7 @@ void check_access_rights(char *filename)
  */
 int check_digits(char *s)
 {
-	int status;
-	status = 1;
+	int status = 1;
 
 	while (*s != '\0')
 	{
